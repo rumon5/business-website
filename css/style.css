@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+
+
+/* Default Styles start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    left: 142.5px;
+    margin: 0px 32px;
+    font-weight: 500;
+}
+.btn{
+    width: 9rem;
+    padding: 19px;
+    background: black;
+    border-radius: 12px;
+    color: #ffffff;
+    cursor: pointer;
+}
+/* Default Styles end */
+
+/* Navber section start */
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 1440px;
+    height: 120px;
+    font-size: 18px;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+nav .image{
+    height: 63px;
+    width: 60px;
+    border-radius: 20%;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+.navbar .image{
+    background: url("../images/profile.jpg") no-repeat center;
+    background-size: cover;
+}
+/* Navber section end */
+@media  only screen and (max-width:930px) {
+    .nav-list{
+        margin-top: 15px;
+    }
+    .btn{
+        margin-top: 15px;
+    }
+    
+}
